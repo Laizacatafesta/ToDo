@@ -126,3 +126,33 @@ input, select {
 #filter select {
     flex: 1;
 }
+
+/*to do list*/
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid f3f3f3;
+    transition: .3s;
+}
+
+.todo h3 {
+    flex: 1;
+    font-size: .9rem;
+}
+
+.todo button {
+    margin-left: 0.4rem;
+}
+
+.done {
+    background-color:#808080 ;
+}
+
+.done h3 {
+    color: #f3f3f3;
+    text-decoration: line-through;
+    font-style: italic;
+}
