@@ -63,3 +63,27 @@ input, select {
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #f3f3f3;
 }
+
+/*to do form*/ 
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#todo-form p,
+#edit-form p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: .3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
