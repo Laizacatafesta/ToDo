@@ -49,3 +49,12 @@ todoForm.addEventListener("submit", (e) => {
         //save todo
     }
 })
+
+document.addEventListener("click", (e) => {
+    const targeEl = e.target;
+    const parentEl = targeEl.closest("div");
+
+    if (targeEl.classList.contains("finish-todo")) {
+        parentEl.classList.toggle("done");
+    }
+})
